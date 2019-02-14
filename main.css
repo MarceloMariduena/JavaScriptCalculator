@@ -1,0 +1,134 @@
+/******************  Universals  *****************/
+
+body {
+    font-family: Lato;
+}
+  
+footer {
+    padding: 6vw;
+    height: 60px;
+    background-color: grey;
+}
+  
+img {
+    border-radius: 5px;
+}
+
+img:hover {
+    opacity: 0.8;
+}
+
+/************************ ID's *******************/
+
+#title {
+    font-size: 40px;
+    text-shadow: 2px 2px #333;
+    color: lightgray;
+    font-weight: 200;
+}
+
+#gitHubLink {
+    color: black;
+}
+
+#gitHubLink:hover {
+    color: white;
+}
+  
+#calcOutput {
+    background-color: white;
+    width: 250px;
+    height: 45px;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+    margin: 0 auto;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+  
+#steps {
+    margin-left: 10px;
+    font-size: 1.5em;
+}
+  
+#calculator {
+    background-color: lightgray;
+    width: 250px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+}
+  
+#section1 {
+    background: url(https://images.pexels.com/photos/1213447/pexels-photo-1213447.jpeg?auto=compress&cs=tinysrgb&h=350);
+    height: 720px;
+    background-size: cover; 
+    background-attachment: fixed; 
+    background-position: center;
+    margin: -10px;
+}
+  
+#section2 {
+    min-height: 400px;
+    padding-top: 60px;
+}
+  
+  
+
+/***************** CLASSES **************/
+  
+.text-center {
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px;
+    width: 25px;
+    height: 30px;
+    border-radius: 5px;
+    margin: 2px;
+    color: lightgray;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.btn-primary {
+    background-color: #44E;
+}
+
+.btn-danger {
+    background-color: #E44;
+}
+
+.bigButton {
+    display: inline-block;
+    padding-left: 43px;
+    padding-right: 43px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    margin: 2px;
+    color: lightgray;
+}
+
+.bigButton:hover {
+    opacity: 0.8;
+}
+
+.row {
+    display: block;
+    height: 60px;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.col-1 {
+    width: 400px;
+}
