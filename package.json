@@ -1,0 +1,16 @@
+{
+  "name": "JavaScriptCalculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "desploy": "gh-pages -d site"
+  },
+  "keywords": ["Marcelo Mariduena", "JavaScript Calculator"],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/MarceloMariduena/JavaScriptCalculator",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
